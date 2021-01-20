@@ -52,16 +52,27 @@ Table of Contents:
 ### Necessary Files<a name="files"></a>
 
 ```
-- Starbucks_Capstone.html # the html format of the notebook
-- Starbucks_Capstone.ipynb 
+- Starbucks_Capstone_notebook.html 
+- Starbucks_Capstone_notebook.ipynb 
 - data
   |-portfolio.json
   |-profile.json
-  |-transcript
+  |-transcript.json
   |-processed_data.csv
   |-processed_data2.csv
 - README.md
 ```
+
+- Starbucks_Capstone_notebook.html - for ease of downloading/viewing
+- Starbucks_Capstone_notebook.ipynb - for notebook review/use
+- data - folder containing data and data downloads
+    - -portfolio.json - contains offer id’s and metadata (reward, channels, difficulty, offer_type)
+    -profile.json - contains demographic data by id(gender, age, became_member_on, income)
+    -transcript.json - contains records by id for event, value, and time (recording time of this study)
+    -processed_data.csv - saved state of data to skip processing
+    -processed_data2.csv - saved state of data to skip processing (additional)
+- README.md - you're reading it :)
+
 
 ### Conclusions <a name="Conclusions"></a>
 
